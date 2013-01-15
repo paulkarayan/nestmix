@@ -3,7 +3,10 @@ nestmix
 
 first attempts at using echo nest remix api to improve remixing workflow
 
-for an mp3 input file, find all the phrases (tatums), mark them with timbre & key, and export them as 
-phrase1_timbre_key.mp3
+based on:
+sorting_timbre.py
+Sorts AudioQuanta (bars, beats, tatums, segments) by timbral bin (0-11).
+By Thor Kell, 2012-11-14
 
-these can then be ingesting by SliceX more manageably than the whole song file.
+sorting_pk2.py extends this to make it useful for providing input files for
+SliceX (FL Studio) that are grouped by key and timbre
